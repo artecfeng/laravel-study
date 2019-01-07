@@ -30,7 +30,8 @@ php artisan iseed links --force --max=5 --exclude=created_at,updated_at
 ```
 composer require barryvdh/laravel-cors
 php artisan vendor:publish --provider="Barryvdh\Cors\ServiceProvider"
-如果需要全局使用，可以在 app/Http/Kernel.php 的 $middleware 中增加 \Barryvdh\Cors\HandleCors::class
+如果需要全局使用，可以在 app/Http/Kernel.php 的 $middleware 中增加 
+'cors' => \Barryvdh\Cors\HandleCors::class, 设置别名方便使用
 配置	对应的 Header	说明
 supportsCredentials	Access-Control-Allow-Credentials	是否携带 Cookie
 allowedOrigins	Access-Control-Allow-Origin	允许的域名
@@ -39,4 +40,9 @@ allowedHeaders	Access-Control-Allow-Headers	允许的 Header
 allowedMethods	Access-Control-Allow-Methods	允许的 HTTP 方法
 exposedHeaders	Access-Control-Expose-Headers	除了 6 个基本的头字段，额外允许的字段
 maxAge	Access-Control-Max-Age	预检请求的有效期
+```
+
+## laravel 生成二维码
+```$xslt
+composer require simplesoftwareio/simple-qrcode
 ```
