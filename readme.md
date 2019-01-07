@@ -8,4 +8,9 @@ Hashids::decode() @parama string @return array
 ```
 
 
-
+## laravel 日志查看工具
+```
+composer require rap2hpoutre/laravel-log-viewer
+Route::get('logs', '\Rap2hpoutre\LaravelLogViewer\LogViewerController@index');
+url domain/logs
+```
