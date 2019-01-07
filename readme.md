@@ -13,4 +13,5 @@ Hashids::decode() @parama string @return array
 composer require rap2hpoutre/laravel-log-viewer
 Route::get('logs', '\Rap2hpoutre\LaravelLogViewer\LogViewerController@index');
 url domain/logs
+发布为可修改  php artisan vendor:publish --provider="Rap2hpoutre\LaravelLogViewer\LaravelLogViewerServiceProvider" --tag="views"
 ```
