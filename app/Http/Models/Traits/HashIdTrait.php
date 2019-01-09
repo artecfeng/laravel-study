@@ -6,7 +6,7 @@
      * Time: 4:35 PM
      */
 
-    namespace App\Models\Traits;
+    namespace App\Http\Models\Traits;
 
     use Hashids;
 

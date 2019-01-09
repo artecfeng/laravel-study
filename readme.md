@@ -46,3 +46,9 @@ maxAge	Access-Control-Max-Age	预检请求的有效期
 ```$xslt
 composer require simplesoftwareio/simple-qrcode
 ```
+
+## laravel 自动生成api文档
+```$xslt
+composer require brooksyang/laravel-api-helper
+
+```
