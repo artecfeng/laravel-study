@@ -52,3 +52,18 @@ composer require simplesoftwareio/simple-qrcode
 composer require brooksyang/laravel-api-helper
 
 ```
+
+## laravel sendcloud包
+```$xslt
+composer require naux/sendcloud
+```
+
+## laravel 多国语言包
+```$xslt
+composer require caouecs/laravel-lang:~3.0
+```
+
+## laravel 提示
+```$xslt
+composer require laracasts/flash
+```
